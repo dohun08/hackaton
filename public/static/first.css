@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+#container{
+    background-color: white;
+    width: 400px;
+    height: 800px;
+    margin: 0px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+main{
+    position: absolute;
+    width: 340px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.12);
+    padding: 10px;
+    left: 20px;
+    top: 230px;
+}
+main p{
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+-webkit-text-stroke-width: 1;
+-webkit-text-stroke-color: #000;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 41px; /* 136.667% */
+margin: 0px auto;
+}
+#form{
+    width: 340px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#options{
+    width: 340px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin: 0px;
+}
+#inputEtc{
+    width: 320px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0px 10px;
+    border-radius: 10px;
+    display: none;
+    margin: 0px;
+}
+#submit{
+    margin: 0px auto;
+    display: flex;
+width: 112px;
+height: 35px;
+padding: 8px 70px 8px 42px;
+align-items: center;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FF4949;
+border: none;
+color: white;
+cursor: pointer;
+}
+#submit:hover{
+    background-color: #de3e3e;
+    transition: 0.4s;
+}
+#submit:active{
+    background-color: #c03434;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    left: 130px;
+    width: 150px;
+    height: 5px;
+    border-radius: 100px;
+    background: var(--Grays-Black, #000);
+}
+#title-font{
+    width: 147px;
+    margin-top: 15px;
+}
+#title-font2{
+    width: 310px;
+}
+#name{
+    width: 315px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+}
+#code{
+    width: 315px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+}
